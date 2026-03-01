@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./dist/css/main.css",
-    "watch": "tailwindcss -i ./src/input.css -o ./dist/css/main.css --watch"
-  },
+  "build": "npx tailwindcss -i ./src/input.css -o ./dist/css/main.css",
+  "watch": "npx tailwindcss -i ./src/input.css -o ./dist/css/main.css --watch"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
